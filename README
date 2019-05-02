@@ -1,0 +1,15 @@
+How to run the project:
+
+1) change the absolute path to the blackbox executable in .../streamProcessingService/src/main/resources/application.properties 
+
+2) run the jar by:
+
+cd streamProcessingService/target 
+
+java -jar streamProcessingService-1.0.jar
+
+3) call the rest web service:
+
+in a browser http://localhost:8080/counterAsynch
+
+each click will show how the counter growths 
