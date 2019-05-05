@@ -11,6 +11,16 @@ java -jar streamProcessingService-1.0.jar
 
 3) call the rest web service:
 
-in a browser http://localhost:8080/counterAsynch
+in a browser:
 
-each click will show how the counter growths 
+http://localhost:8080/counters
+
+http://localhost:8080/deferredresult
+
+http://localhost:8080/counterAsynch
+
+each click will show how the counter growths.
+
+The 3 controllers give the same result but the performance is different in stability and resources consumption.
+
+I will like to try akka messages framework to see the difference with spring (use reactor underhood )
