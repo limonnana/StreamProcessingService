@@ -32,8 +32,7 @@ public class AsyncService {
         logger.info("Looking up " + mapCounter);
         String url = String.format("http://localhost:8080/%s", mapCounter);
         Map<String,Long> results = restTemplate.getForObject(url, Map.class);
-        // Artificial delay of 1s for demonstration purposes
-        //Thread.sleep(7000L);
+
         return CompletableFuture.completedFuture(results);
     }
 

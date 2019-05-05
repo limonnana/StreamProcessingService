@@ -1,3 +1,8 @@
+To build the project from source:
+
+mvn clean package -DskipTests=true
+
+
 How to run the project:
 
 1) change the absolute path to the blackbox executable in .../streamProcessingService/src/main/resources/application.properties 
