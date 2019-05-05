@@ -5,7 +5,7 @@ mvn clean package -DskipTests=true
 
 How to run the project:
 
-1) change the absolute path to the blackbox executable in .../streamProcessingService/src/main/resources/application.properties 
+1) change the absolute path to the blackbox executable in .../src/main/resources/application.properties 
 
 2) run the jar by:
 
