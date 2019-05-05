@@ -1,6 +1,10 @@
 
 How to run the project:
 
+0) After clonning the project, generate the jar from sources with:
+
+ mvn clean package -DskipTests=true
+
 1) change the absolute path to the blackbox executable in .../src/main/resources/application.properties 
 
 2) run the jar by:
