@@ -1,7 +1,3 @@
-To build the project from source:
-
-mvn clean package -DskipTests=true
-
 
 How to run the project:
 
