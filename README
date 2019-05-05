@@ -27,4 +27,4 @@ each click will show how the counter growths.
 
 The 3 controllers give the same result but the performance is different in stability and resources consumption.
 
-I will like to try akka messages framework to see the difference with spring (use reactor underhood )
+I would like to try akka messages framework to see the difference with spring (use reactor underhood )
